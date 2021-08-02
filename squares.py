@@ -2,7 +2,8 @@ import turtle
 colors = ['red', 'orange','yellow','green','blue','purple']
 mitch = turtle.Turtle()
 turtle.bgcolor('black')
-# outer loop of for siz squares
+mitch.speed('normal') #new
+# outer loop of for six squares
 for n in range (6):
     mitch.color(colors[n])
     #inner loop to draw squares
@@ -13,3 +14,4 @@ for n in range (6):
     mitch.forward(30)
     mitch.pendown()
 mitch.hideturtle()
+turtle.exitonclick()
